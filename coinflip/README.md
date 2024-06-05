@@ -11,7 +11,7 @@ The values are as following:
 This can be easily exploited since the blockValue can be easily computed on-chain by another contract.
 
 ## Vulnerability Detail
-Since both values are known, they can be used by a malicious contract on-chain, to actually compute the value of `true`/`false` and directly call the `flip()` function of `CoinFlip`.
+Since both values are known, they can be used by a malicious contract on-chain, to actually pre-compute the value of `true`/`false` and directly call the `flip()` function of `CoinFlip`.
 
 ```solidity
 // SPDX-License-Identifier: MIT
