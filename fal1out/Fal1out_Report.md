@@ -21,8 +21,7 @@ Attack scenario:
 High. This breaks a core contract functionality. The attacker can become the owner of the contract and send all allocations to their account without any constraints.
 
 ## Code Snippet
-https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L18-L24
-https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L34-L37
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fal1out/Fallout.sol#L13-L16
 
 ## Tools Used
 Remix IDE, Manual Review
