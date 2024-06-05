@@ -26,7 +26,7 @@ Attack scenario:
 1. The attacker calls `contribute()` with a `value = 100000000000000 WEI (0.0001 ether)` and adds a contribution for themselves in the `contributions` mapping.
 2. The attacker then sends directly `100000000000000 WEI (0.0001 ether)` to the contract.
 3. The `receive()` function is triggered. The require statement is passed since `msg.value > 0 (0.0001 ether)` and we already have made a contribution `contributions[msg.sender] > 0`.
-4. The attacker instantly becomes the owner of the contract and withdraws all of the funds inside.
+4. The attacker instantly becomes the owner of the contract and calls `withdraw()` to withdraw all of the funds inside the contract.
 
 ## Impact
 High. This breaks a core contract functionality. The attacker can become the owner of the contract and withdraw all funds without any constraints.
