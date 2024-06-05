@@ -32,10 +32,11 @@ Attack scenario:
 High. This breaks a core contract functionality. The attacker can become the owner of the contract and withdraw all funds without any constraints.
 
 ## Code Snippet
-
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L18-L24
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L34-L37
 
 ## Tools Used
 Remix IDE, Manual Review
 
 ## Recommendation
-
+Remove the `owner = msg.sender` from the `receive()` function. Never should the user become an owner so easily.
