@@ -1,7 +1,7 @@
 #### Win the game by gaining control over the contract (become an owner).
 
 ## Summary
-The `Fallout` is supposed to have a `constructor` (as mentioned by the developers in the comments) but it does not have one.
+The `Fallout` contract is supposed to have a `constructor` (as mentioned by the developers in the comments) but it does not have one.
 
 ## Vulnerability Detail
 The `Fal1out()` function is supposed to be a `constructor` (according to the comments in the code). However, it is not - it is just a function that can be called by anyone.
