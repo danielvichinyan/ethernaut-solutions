@@ -1,4 +1,4 @@
-#### Claim ownership of the contract below to complete this level.
+#### Claim ownership of the `Telephone` contract to complete this level.
 
 ## Summary
 The `Telephone::changeOwner` function gives ownership of the contract. The only required condition is `tx.origin != msg.sender` which can be easily bypassed.
