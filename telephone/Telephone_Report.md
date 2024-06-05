@@ -46,7 +46,7 @@ Attack scenario:
 High. This breaks a core contract functionality. The attacker can become the owner of the contract and can do whatever they want without any constraints.
 
 ## Code Snippet
-
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/telephone/Telephone.sol#L12-L14
 
 ## Tools Used
 Remix IDE, Manual Review
