@@ -17,7 +17,7 @@ function transfer(address _to, uint256 _value) public returns (bool) {
 
 Attack scenario:
 1. An attacker has initial 20 tokens inside the contract.
-2. He tries to transfer 21 tokens (1 more than what he has) to an address. This will result in a negative number `20 - 21 = -1`. And `uint256` cannot hold negative numbers, so it will wrap around to the maximum value of `uin256` which is `2^256 - 1`.
+2. He tries to transfer 21 tokens (1 more than what he has) to the `Token` contract address. This will result in a negative number `20 - 21 = -1`. And `uint256` cannot hold negative numbers, so it will wrap around to the maximum value of `uin256` which is `2^256 - 1`.
 4. This results in an underflow, and the result would be `uint256.max`.
 5. The balance of the attacker will be mapped to the `uint256.max` value (`2^256 - 1`) which is something like `115792089237316195423570985008687907853269984665640564039457584007913129639935` tokens.
 
