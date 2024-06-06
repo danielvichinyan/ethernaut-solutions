@@ -25,8 +25,7 @@ Attack scenario:
 High. This breaks a core contract functionality. The attacker is able to take `uint256.max` tokens without any effort.
 
 ## Code Snippet
-https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L18-L24
-https://github.com/danielvichinyan/ethernaut-solutions/blob/main/fallback/Fallback.sol#L34-L37
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/token/Token.sol#L12-L17
 
 ## Tools Used
 Remix IDE, Manual Review
