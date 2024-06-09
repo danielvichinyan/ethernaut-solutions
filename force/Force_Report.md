@@ -42,7 +42,8 @@ contract ForceAttacker {
 Attack scenario:
 1. Attacker deploys the malicious contract `ForceAttacker`.
 2. They call the `forceSendMoney()` method with a `value = 1 ether`.
-3. The attacker has successfully trapped `1 ether` inside the `Force` contract.
+3. This destroys the `ForceAttacker` contract and sends the `value` to the `Force` contract.
+4. The attacker has successfully trapped `1 ether` inside the `Force` contract.
 
 ## Impact
 High. An attacker can trap user funds forever inside the `Force` contract.
