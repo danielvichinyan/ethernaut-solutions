@@ -34,7 +34,8 @@ Attack scenario:
 High. This breaks a core contract functionality. The attacker can become the owner of the contract and do whatever they want without any constraints.
 
 ## Code Snippet
-
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/delegation/Delegation.sol#L16-L21
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/delegation/Delegate.sol#L11-L13
 
 ## Tools Used
 Remix IDE, Manual Review
