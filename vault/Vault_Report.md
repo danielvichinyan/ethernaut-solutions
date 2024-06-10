@@ -36,7 +36,7 @@ await contract.locked(); // false (the attacker just unlocked the contract)
 High. An attacker can unlock the `Vault` and do whatever they want to with it.
 
 ## Code Snippet
-https://github.com/danielvichinyan/ethernaut-solutions/blob/main/force/Force.sol#L4-L10
+https://github.com/danielvichinyan/ethernaut-solutions/blob/main/vault/Vault.sol#L6
 
 ## Tools Used
 Remix IDE, Manual Review
